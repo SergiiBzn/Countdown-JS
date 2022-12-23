@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const deadline = '2023-08-16';
+  const endtime = '2023-08-16';
 
   function getTimeRemaining(endtime) {
     let days, hours, minutes, seconds;
@@ -58,5 +58,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  setClock('.timer', deadline);
+  setClock('.timer', endtime);
 });
+
